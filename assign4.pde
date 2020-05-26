@@ -254,7 +254,7 @@ void draw() {
 
 		// If player is not moving, we have to decide what player has to do next
 
-    println(playerCol +"f"+ playerRow);
+   // println(playerCol +"f"+ playerRow);
     
 		if(playerMoveTimer == 0 && playerRow < SOIL_ROW_COUNT - 1){
       if(soilHealth[playerCol][playerRow+1] == 0){
